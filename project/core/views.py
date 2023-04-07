@@ -14,6 +14,3 @@ def sample(request):
 
 def store(request):
     return render(request, 'core/store.html')
-
-def blog(request):
-    return render(request, 'core/blog.html')
