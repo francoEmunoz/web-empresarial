@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'blog',
     'social',
     'pages',
-    'ckeditor'
+    'ckeditor',
+    'contact'
 ]
 
 MIDDLEWARE = [
@@ -143,6 +144,12 @@ CKEDITOR_CONFIGS = {
         ]
     }
 }
+
+# SENDMAIL
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = '202410e3138ead'
+EMAIL_HOST_PASSWORD = '7c378abc9f8cf4'
+EMAIL_PORT = '2525'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
